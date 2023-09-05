@@ -1,0 +1,132 @@
+.bg-color {
+    background-color: #8C92AC !important;
+}
+
+.accent1 {
+    color: #D6EEFF !important;
+}
+
+.accent2 {
+    color: #BAD5F9;
+}
+
+.accent3 {
+    color: #71cdff 
+}
+
+.accent4 {
+    color: #B9FAFA;
+}
+
+.accent5 {
+    color: #DEB3DF;
+}
+
+.accent6 {
+    color: #FFF2CD;
+}
+
+.accent7 {
+    color: #F5A2A2;
+}
+
+.accent8 {
+    color: #C1E1C1;
+}
+
+body {
+    font-family: 'Nunito', sans-serif !important;
+    color: white !important;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        cursor: pointer;
+    }
+}
+
+.smol {
+    font-size: larger;
+}
+
+.w {
+    margin: 3em auto;
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1920px) {
+    .w {
+        margin: 3em auto;
+        max-width: 768px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10em;
+    }
+
+    .textstuff {
+        position: relative;
+        top: -10px;
+    }
+
+    .justthis {
+        text-align: left !important;
+    }
+
+    .pt-45 {
+        padding-top: 2.5em;
+    }
+}
+
+.justthis {
+    text-align: center;
+}
+
+.textstuff {
+    position: relative;
+    top: -10px;
+}
+
+#lessmargin {
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+.inline_text_highlight {
+    color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-decoration: underline;
+}
+
+.inline_text_highlight:hover {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    font-style: normal;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+a:hover {
+    color: inherit;
+    font-style: normal;
+    text-decoration: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.tooltip-inner {
+    color: #000 !important;
+    background-color: white !important;
+    opacity: 1 !important;
+}
+
+.fa {
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
